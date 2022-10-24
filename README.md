@@ -1,3 +1,7 @@
 # TemporRepo
-Just for temporary usage </br>
-Maybe will convert to static pentest tools
+*Linux portable pentesting kit*
+Contains:
+- LPE CVEs
+- Static tools
+- (Maybe) required libraries
+- To be continued...
