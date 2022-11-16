@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [ <!ELEMENT foo (#ANY)> <!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
+<torg_price date="2018-01-01 00:01">
+<shop>
+    <name>Интернет-магазин</name>
+    <company>ООО "Магазин"</company>
+    <url>https://www.example.com</url>
+    <currencies>
+        <currency id="RUR"/>
+    </currencies>
+    <categories>
+        <category id="1" parentId="0">Кондиционеры</category>
+        <category id="2" parentId="1">Настенные кондиционеры</category>
+    </categories>
+    <offers>
+        <offer id="1" available="true">
+            <url>https://www.example.com/cond/model-ls-h0561al</url>
+            <price>10596</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>2</categoryId>
+            <picture>https://www.example.com/pictures/model-ls-h0561al-1.jpeg</picture>
+            <typePrefix>Кондиционер</typePrefix>
+            <vendor>LG</vendor>
+            <model>LS-H0561AL</model>
+            <android_url>myapp://product?article=100001 </android_url>
+            <ios_url>myapp://product?article=100001 </ios_url>
+            <bundle_id>ru.myapp.myapp</bundle_id>
+            <ios_app_store_id>100500</ios_app_store_id> </ios_app_store_id>
+        </offer>
+        <offer id="2" available="true">
+            <url>https://www.example.com/cond/model-ls-h0893</url>
+            <price>30203</price>
+            <currencyId>RUR</currencyId>
+            <categoryId>2</categoryId>
+            <picture>https://www.example.com/pictures/model-model-ls-h0893.jpeg</picture>
+            <typePrefix>Кондиционер</typePrefix>
+            <vendor>LG</vendor>
+            <model>LS-H0893</model>
+            <android_url>myapp://product?article=100001 </android_url>
+            <ios_url>myapp://product?article=100001 </ios_url>
+            <bundle_id>ru.myapp.myapp</bundle_id>
+            <ios_app_store_id>100500</ios_app_store_id> </ios_app_store_id>
+            <android_tracking_url>https://abc.adj.st/adjust_t=dsfdsfsd&deep_link=app%3A%2F%2Fpath%2Fto%2Fproduct </android_tracking_url>
+            <ios_tracking_url>https://abc.adj.st/adjust_t=dsfdsfsd&deep_link=app%3A%2F%2Fpath%2Fto%2Fproduct </ios_tracking_url>
+        </offer>
+    </offers>
+</shop>
+</torg_price>
