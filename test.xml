@@ -1,35 +1,162 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<!DOCTYPE replace [<!ENTITY test SYSTEM "file:///etc/passwd"> ]>
-<torg_price date="2022-10-10 12:12}">
+<!--?xml version="1.0" ?-->
+<!DOCTYPE replace [<!ENTITY example "Ls-H1337UI"> ]>
+<torg_price date="2018-01-01 00:01">
 <shop>
-    <name>example.com</name>
-    <company>example.com</company>
-    <url>http://example.com</url>
-    <currencies>
-        <currency id="658"/>
-    </currencies>
-    <categories>
-        <category id="1" parentId="1">Test</category>
-    </categories>
-    <offers>
-        <offer id="1" available="Yes">
-            <url>http://example.com</url>
-            <price>122</price>
-            <oldprice>123</oldprice>
-            <currencyId>658</currencyId>
-            <categoryId>1</categoryId>
-            <picture>http://example.com</picture>
-            <typePrefix>qwe</typePrefix>
-            <vendor>asd</vendor>
-            <model>Qwe</model>
-            <description>&test;</description>
-            <android_url>http://example.com</android_url>
-            <ios_url>http://example.com</ios_url>
-            <bundle_id>123qwe</bundle_id>
-            <ios_app_store_id>123asd</ios_app_store_id> </ios_app_store_id>
-            <android_tracking_url>http://example.com</android_tracking_url>
-            <ios_tracking_url>http://example.com</ios_tracking_url>
-        </offer>
-    </offers>
+<name>Интернет-магазин</name>
+<company>ООО "Магазин"</company>
+<url>https://www.example.com</url>
+<currencies>
+<currency id="RUR"/>
+</currencies>
+<categories>
+<category id="1" parentId="0">Кондиционеры</category>
+<category id="2" parentId="1">Настенные кондиционеры</category>
+</categories>
+<offers>
+<offer id="1" available="true" type="vendor.model">
+<url>https://www.example.com/cond/model-ls-h0561al</url>
+<price>10596</price>
+<oldprice>11000</oldprice>
+<min_price>5000</min_price>
+<max_price>5000</max_price>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
+<typePrefix>Кондиционер</typePrefix>
+<vendor>LG</vendor>
+<model>&example;</model>
+<android_url>myapp://product?article=100001 </android_url>
+<ios_url>myapp://product?article=100001 </ios_url>
+<bundle_id>ru.myapp.myapp</bundle_id>
+<ios_app_store_id>100500</ios_app_store_id>
+</offer>
+<offer id="2" available="true" type="vendor.model">
+<url>https://www.example.com/cond/model-ls-h0893</url>
+<price>30203</price>
+<oldprice>11000</oldprice>
+<min_price>5000</min_price>
+<max_price>5000</max_price>
+<currencyId>RUR</currencyId>
+<description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
+<categoryId>2</categoryId>
+<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<typePrefix>Кондиционер</typePrefix>
+<vendor>LG</vendor>
+<model>Ls-H0893</model>
+<android_url>myapp://product?article=100001 </android_url>
+<ios_url>myapp://product?article=100001 </ios_url>
+<bundle_id>ru.myapp.myapp</bundle_id>
+<ios_app_store_id>100500</ios_app_store_id>
+</offer>
+<offer id="3" available="true" type="vendor.model">
+<url>https://www.example.com/cond/model-ls-h0893</url>
+<price>30203</price>
+<min_price>5000</min_price>
+<max_price>5000</max_price>
+<oldprice>11000</oldprice>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
+<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<typePrefix>Кондиционер</typePrefix>
+<vendor>LG</vendor>
+<model>Ls-H0893</model>
+<android_url>myapp://product?article=100001 </android_url>
+<ios_url>myapp://product?article=100001 </ios_url>
+<bundle_id>ru.myapp.myapp</bundle_id>
+<ios_app_store_id>100500</ios_app_store_id>
+</offer>
+<offer id="4" available="true" type="vendor.model">
+<url>https://www.example.com/cond/model-ls-h0893</url>
+<price>30203</price>
+<min_price>5000</min_price>
+<max_price>5000</max_price>
+<oldprice>11000</oldprice>
+<currencyId>RUR</currencyId>
+<categoryId>2</categoryId>
+<description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
+<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<typePrefix>Кондиционер</typePrefix>
+<vendor>LG</vendor>
+<model>Ls-H0893</model>
+<android_url>myapp://product?article=100001 </android_url>
+<ios_url>myapp://product?article=100001 </ios_url>
+<bundle_id>ru.myapp.myapp</bundle_id>
+<ios_app_store_id>100500</ios_app_store_id>
+</offer>
+<offer id="5" available="true" type="vendor.model">
+<url>https://www.example.com/cond/model-ls-h0893</url>
+<price>30203</price>
+<min_price>5000</min_price>
+<max_price>5000</max_price>
+<oldprice>11000</oldprice>
+<currencyId>RUR</currencyId>
+<description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
+<categoryId>2</categoryId>
+<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<typePrefix>Кондиционер</typePrefix>
+<vendor>LG</vendor>
+<model>Ls-H0893</model>
+<android_url>myapp://product?article=100001 </android_url>
+<ios_url>myapp://product?article=100001 </ios_url>
+<bundle_id>ru.myapp.myapp</bundle_id>
+<ios_app_store_id>100500</ios_app_store_id>
+</offer>
+<offer id="6" available="true" type="vendor.model">
+<url>https://www.example.com/cond/model-ls-h0893</url>
+<price>30203</price>
+<min_price>5000</min_price>
+<max_price>5000</max_price>
+<oldprice>11000</oldprice>
+<currencyId>RUR</currencyId>
+<description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
+<categoryId>2</categoryId>
+<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<typePrefix>Кондиционер</typePrefix>
+<vendor>LG</vendor>
+<model>Ls-H0893</model>
+<android_url>myapp://product?article=100001 </android_url>
+<ios_url>myapp://product?article=100001 </ios_url>
+<bundle_id>ru.myapp.myapp</bundle_id>
+<ios_app_store_id>100500</ios_app_store_id>
+</offer>
+<offer id="7" available="true" type="vendor.model">
+<url>https://www.example.com/cond/model-ls-h0893</url>
+<price>30203</price>
+<min_price>5000</min_price>
+<max_price>5000</max_price>
+<oldprice>11000</oldprice>
+<currencyId>RUR</currencyId>
+<description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
+<categoryId>2</categoryId>
+<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<typePrefix>Кондиционер</typePrefix>
+<vendor>LG</vendor>
+<model>Ls-H0893</model>
+<android_url>myapp://product?article=100001 </android_url>
+<ios_url>myapp://product?article=100001 </ios_url>
+<bundle_id>ru.myapp.myapp</bundle_id>
+<ios_app_store_id>100500</ios_app_store_id>
+</offer>
+<offer id="8" available="true" type="vendor.model">
+<url>https://www.example.com/cond/model-ls-h0893</url>
+<price>30203</price>
+<min_price>5000</min_price>
+<max_price>5000</max_price>
+<oldprice>11000</oldprice>
+<currencyId>RUR</currencyId>
+<description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
+<categoryId>2</categoryId>
+<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<typePrefix>Кондиционер</typePrefix>
+<vendor>LG</vendor>
+<model>Ls-H0893</model>
+<android_url>myapp://product?article=100001 </android_url>
+<ios_url>myapp://product?article=100001 </ios_url>
+<bundle_id>ru.myapp.myapp</bundle_id>
+<ios_app_store_id>100500</ios_app_store_id>
+</offer>
+</offers>
 </shop>
 </torg_price>
