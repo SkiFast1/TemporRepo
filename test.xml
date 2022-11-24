@@ -1,4 +1,3 @@
-<!DOCTYPE replace [<!ENTITY example "Ls-H1337UI"> ]>
 <torg_price date="2018-01-01 00:01">
 <shop>
 <name>Интернет-магазин</name>
@@ -24,6 +23,7 @@
 <description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
 <typePrefix>Кондиционер</typePrefix>
 <vendor>LG</vendor>
+<!DOCTYPE replace [<!ENTITY example "Ls-H1337UI"> ]>
 <model>&example;</model>
 <android_url>myapp://product?article=100001 </android_url>
 <ios_url>myapp://product?article=100001 </ios_url>
