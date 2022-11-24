@@ -19,12 +19,11 @@
 <max_price>5000</max_price>
 <currencyId>RUR</currencyId>
 <categoryId>2</categoryId>
-<picture>http://www.kurzweilai.net/images/Naam-Limits-of-Earth-Part1-001-earth-600x600.jpg</picture>
+<picture>https://raw.githubusercontent.com/vavkamil/xss2png/master/xss.png</picture>
 <description>Вот уже тридцать лет мои дни скучны и однообразны. Нет подруг, нет близких. И вдруг моя жизнь в одночасье изменилась. Судьба подарила мне подругу – Катю! Но... спустя день ее похитили. Неизвестные требовали документы, которые хранились у какого-то.</description>
 <typePrefix>Кондиционер</typePrefix>
 <vendor>LG</vendor>
-<!DOCTYPE replace [<!ENTITY example "Ls-H1337UI"> ]>
-<model>&example;</model>
+<model>Ls-P1337OI</model>
 <android_url>myapp://product?article=100001 </android_url>
 <ios_url>myapp://product?article=100001 </ios_url>
 <bundle_id>ru.myapp.myapp</bundle_id>
